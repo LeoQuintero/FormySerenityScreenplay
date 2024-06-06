@@ -1,7 +1,5 @@
 #Auto: Edwin Quintero
 #language:en
-
-
 Feature: Formy Autocomplete Form
 
   @autocomplete
