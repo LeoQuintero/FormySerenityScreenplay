@@ -1,0 +1,102 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;link rel="stylesheet" href="/assets/application-4f3b4f08cd1f03905031efc552ebd06c532a62089d81d1cbff175de50df958a3.css" media="all" data-turbolinks-track="reload"&gt;<br/>
+  &lt;script src="/assets/application-467e0b1fae66618f98c39666f913d6e0b0827e15ee6f480150fb92acfe0a8ff4.js" data-turbolinks-track="reload"&gt;&lt;/script&gt;<br/>
+  &lt;title&gt;Formy&lt;/title&gt;<br/>
+  &lt;meta name="csrf-param" content="authenticity_token"&gt;<br/>
+  &lt;meta name="csrf-token" content="zeT3CdGPvK1KiesftCKsZWZGJur24qaAB/btuhKYEvZHbFhbLZAhX5cj7a88/RrNxI9bpPnm8DdpFg/gmP4Vmg=="&gt;<br/>
+  &lt;link rel="icon" type="image/x-icon" href="/assets/favicon-05ae272716c4133e0ba741678db1eeaf0867542d5a185910b558596b1752792a.ico"&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body&gt;<br/>
+  &lt;div class="container"&gt;<br/>
+   &lt;nav class="navbar navbar-expand-lg bg-light"&gt;&lt;a class="navbar-brand" id="logo" href="/"&gt;Formy&lt;/a&gt; &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"&gt; &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt; &lt;/button&gt;<br/>
+    &lt;div class="collapse navbar-collapse" id="navbarNavDropdown"&gt;<br/>
+     &lt;ul class="navbar-nav"&gt;<br/>
+      &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="/form"&gt;Form&lt;/a&gt;&lt;/li&gt;<br/>
+      &lt;li class="nav-item dropdown"&gt;&lt;a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt; Components &lt;/a&gt;<br/>
+       &lt;div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"&gt;&lt;a class="dropdown-item" href="/autocomplete"&gt;Autocomplete&lt;/a&gt; &lt;a class="dropdown-item" href="/buttons"&gt;Buttons&lt;/a&gt; &lt;a class="dropdown-item" href="/checkbox"&gt;Checkbox&lt;/a&gt; &lt;a class="dropdown-item" href="/datepicker"&gt;Datepicker&lt;/a&gt; &lt;a class="dropdown-item" href="/dragdrop"&gt;Drag and Drop&lt;/a&gt; &lt;a class="dropdown-item" href="/dropdown"&gt;Dropdown&lt;/a&gt; &lt;a class="dropdown-item" href="/enabled"&gt;Enabled and disabled elements&lt;/a&gt; &lt;a class="dropdown-item" href="/fileupload"&gt;File Upload&lt;/a&gt; &lt;a class="dropdown-item" href="/keypress"&gt;Key and Mouse Press&lt;/a&gt; &lt;a class="dropdown-item" href="/modal"&gt;Modal&lt;/a&gt; &lt;a class="dropdown-item" href="/scroll"&gt;Page Scroll&lt;/a&gt; &lt;a class="dropdown-item" href="/radiobutton"&gt;Radio Button&lt;/a&gt; &lt;a class="dropdown-item" href="/switch-window"&gt;Switch Window&lt;/a&gt; &lt;a class="dropdown-item" href="/form"&gt;Complete Web Form&lt;/a&gt;<br/>
+       &lt;/div&gt;&lt;/li&gt;<br/>
+     &lt;/ul&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/nav&gt;<br/>
+   &lt;link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"&gt;&lt;br&gt;<br/>
+   &lt;h1&gt;Autocomplete&lt;/h1&gt;<br/>
+   &lt;form&gt;<br/>
+    &lt;div class="form-group"&gt;<br/>
+     &lt;div class="col-sm-8 col-sm-offset-2"&gt;&lt;strong&gt;&lt;label for="autocomplete"&gt;Address&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="autocomplete" onfocus="geolocate()" placeholder="Enter address"&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="col-sm-4 col-sm-offset-2"&gt;&lt;strong&gt;&lt;label&gt;Street address&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="street_number" placeholder="Street address"&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="col-sm-4"&gt;&lt;strong&gt;&lt;label&gt;Street address 2&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="route" placeholder="Street address 2"&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="col-sm-4 col-sm-offset-2"&gt;&lt;strong&gt;&lt;label&gt;City&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="locality" placeholder="City"&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="col-sm-4"&gt;&lt;strong&gt;&lt;label&gt;State&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="administrative_area_level_1" placeholder="State"&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="col-sm-4 col-sm-offset-2"&gt;&lt;strong&gt;&lt;label&gt;Zip code&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="postal_code" placeholder="Zip code"&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="col-sm-4"&gt;&lt;strong&gt;&lt;label&gt;Country&lt;/label&gt;&lt;/strong&gt; &lt;input type="text" class="form-control" id="country" placeholder="Country"&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/form&gt;<br/>
+   &lt;script&gt;<br/>
+var placeSearch, autocomplete;<br/>
+      var componentForm = {<br/>
+        street_number: 'short_name',<br/>
+        route: 'long_name',<br/>
+        locality: 'long_name',<br/>
+        administrative_area_level_1: 'short_name',<br/>
+        country: 'long_name',<br/>
+        postal_code: 'short_name'<br/>
+      };<br/>
+<br/>
+      function initAutocomplete() {<br/>
+        // Create the autocomplete object, restricting the search to geographical<br/>
+        // location types.<br/>
+        autocomplete = new google.maps.places.Autocomplete(<br/>
+            /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),<br/>
+            {types: ['geocode']});<br/>
+<br/>
+        // When the user selects an address from the dropdown, populate the address<br/>
+        // fields in the form.<br/>
+        autocomplete.addListener('place_changed', fillInAddress);<br/>
+      }<br/>
+      function fillInAddress() {<br/>
+              // Get the place details from the autocomplete object.<br/>
+              var place = autocomplete.getPlace();<br/>
+<br/>
+              for (var component in componentForm) {<br/>
+                document.getElementById(component).value = '';<br/>
+                document.getElementById(component).disabled = false;<br/>
+              }<br/>
+<br/>
+              // Get each component of the address from the place details<br/>
+              // and fill the corresponding field on the form.<br/>
+              for (var i = 0; i &lt; place.address_components.length; i++) {<br/>
+                var addressType = place.address_components[i].types[0];<br/>
+                if (componentForm[addressType]) {<br/>
+                  var val = place.address_components[i][componentForm[addressType]];<br/>
+                  document.getElementById(addressType).value = val;<br/>
+                }<br/>
+              }<br/>
+      }<br/>
+      function geolocate() {<br/>
+        if (navigator.geolocation) {<br/>
+          navigator.geolocation.getCurrentPosition(function(position) {<br/>
+            var geolocation = {<br/>
+              lat: position.coords.latitude,<br/>
+              lng: position.coords.longitude<br/>
+            };<br/>
+            var circle = new google.maps.Circle({<br/>
+              center: geolocation,<br/>
+              radius: position.coords.accuracy<br/>
+            });<br/>
+            autocomplete.setBounds(circle.getBounds());<br/>
+          });<br/>
+        }<br/>
+      }<br/>
+&lt;/script&gt;<br/>
+   &lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmvgnacHEJbWVi4qgZJTWtDLDrEcXHudk&amp;libraries=places&amp;callback=initAutocomplete"&gt;&lt;/script&gt;<br/>
+  &lt;/div&gt;&lt;!--  --&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

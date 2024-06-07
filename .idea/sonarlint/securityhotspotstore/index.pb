@@ -9,3 +9,5 @@ r
 Bsrc/main/java/com/co/choucair/userinterfaces/AutocompletePage.java,f\4\f4e8c058e58d6da8c1be376090dbcc14152a9a23
 g
 7src/main/java/com/co/choucair/tasks/FillOutTheForm.java,7\b\7be28c2079b4549a5de29b3494325891dd489206
+i
+9src/main/java/com/co/choucair/models/UserLoombokData.java,3\e\3e3d0f0ae85c15754dcb0eb99baaf04bda1fc0af
