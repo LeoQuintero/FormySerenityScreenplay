@@ -11,3 +11,13 @@ g
 7src/main/java/com/co/choucair/tasks/FillOutTheForm.java,7\b\7be28c2079b4549a5de29b3494325891dd489206
 i
 9src/main/java/com/co/choucair/models/UserLoombokData.java,3\e\3e3d0f0ae85c15754dcb0eb99baaf04bda1fc0af
+k
+;src/test/java/com/co/choucair/runners/DatePickerRunner.java,1\5\15ac818b1eac7c244d9bb76d10461cec8504c71f
+|
+Lsrc/test/java/com/co/choucair/stepdefinitions/DatePickerStepsDefinitios.java,e\f\efd067ab05f5ba6f884677070b5cc83eee46af06
+c
+3src/main/java/com/co/choucair/tasks/NavigateTo.java,8\5\856df8dad0420837accf91d4b78f03568b4899f9
+c
+3src/main/java/com/co/choucair/tasks/SelectDate.java,4\2\427f240bed6fbc0d3af24f85d00828880e8d14d7
+p
+@src/main/java/com/co/choucair/userinterfaces/DatepickerPage.java,8\3\833b1ae8db7af354562130e9018858729c4ec395
