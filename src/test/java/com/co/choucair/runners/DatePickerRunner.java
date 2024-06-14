@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/datepicker.feature",
         glue = "com.co.choucair.stepdefinitions",
-        tags = "@datepicker",
+//        tags = "@datepicker",
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )

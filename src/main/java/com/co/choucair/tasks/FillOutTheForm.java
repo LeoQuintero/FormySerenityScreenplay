@@ -26,15 +26,15 @@ public class FillOutTheForm implements Task {
                 WaitUntil.the(AUTOCOMPLETE_FIELD, isVisible()).forNoMoreThan(10).seconds(),
                 Click.on(AUTOCOMPLETE_FIELD),
                 Click.on(AutocompletePage.ADDRESS_FIELD),
-                Enter.theValue(user.getAddress()).into(AutocompletePage.ADDRESS_FIELD) , // Aquí se ingresa la dirección
+                Enter.theValue(user.getAddress()).into(AutocompletePage.ADDRESS_FIELD) ,
                 Click.on(AutocompletePage.CITY_FIELD),
-                Enter.theValue(user.getCity()).into(AutocompletePage.CITY_FIELD),  // Aquí se ingresa la ciudad
+                Enter.theValue(user.getCity()).into(AutocompletePage.CITY_FIELD),
                 Click.on(AutocompletePage.STATE_FIELD),
-                Enter.theValue(user.getState()).into(AutocompletePage.STATE_FIELD),  // Aquí se ingresa el state
+                Enter.theValue(user.getState()).into(AutocompletePage.STATE_FIELD),
                 Click.on(AutocompletePage.ZIP_CODE_FIELD),
-                Enter.theValue(user.getZip()).into(AutocompletePage.ZIP_CODE_FIELD),  // Aquí se ingresa el Zip Code
+                Enter.theValue(user.getZip()).into(AutocompletePage.ZIP_CODE_FIELD),
                 Click.on(AutocompletePage.COUNTRY_FIELD),
-                Enter.theValue(user.getCountry()).into(AutocompletePage.COUNTRY_FIELD)  // Aquí se ingresa el Zip Code
+                Enter.theValue(user.getCountry()).into(AutocompletePage.COUNTRY_FIELD)
 
         );
     }
